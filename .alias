@@ -1,0 +1,30 @@
+# base utils
+alias grep='grep --color=auto'
+alias ls='ls --color=auto'
+alias ll='ls -l'
+alias la='ls -A'
+alias lla='ls -lA'
+alias mkdir='mkdir -vp'
+
+# package management
+alias p='sudo pacman'
+alias t='trizen'
+alias syu='sudo pacman -Syu'
+alias syua='trizen -Syu'
+alias mirrors='sudo fetchmirrors -v -s 50 -c PL CZ LV BY SK UA'
+
+# system
+alias sc='systemctl'
+alias scu='systemctl --user'
+
+# gpu
+alias novs-mesa='vblank_mode=0'
+alias novs-nv='__GL_SYNC_TO_VBLANK=0'
+alias optimus-nvidia='optimus-manager --switch nvidia'
+alias optimus-intel='optimus-manager --switch intel'
+alias game='LD_PRELOAD=/usr/\$LIB/libgamemodeauto.so.0'
+
+# dev
+alias scenebuilder=javafx-scenebuilder
+alias scenebuilder10=javafx10-scenebuilder
+
