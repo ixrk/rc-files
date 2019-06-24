@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Krzysztof Płaczek
+	email = krzysztof.placzek@yahoo.com
+[diff]
+	compactionHeuristic = true
+[color]
+	ui = true
+[alias]
+	graph = log --graph --oneline --decorate --date=human
