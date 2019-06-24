@@ -2,6 +2,7 @@
 shopt -s autocd direxpand
 
 [[ -f /usr/share/bash-completion/bash_completion ]] && . /usr/share/bash-completion/bash_completion
+[[ -f /usr/share/doc/pkgfile/command-not-found.bash ]] && . /usr/share/doc/pkgfile/command-not-found.bash
 [[ -f ~/.profile ]] && . ~/.profile
 [[ -f ~/.alias ]] && . ~/.alias
 
@@ -9,6 +10,10 @@ export PS1="\[\e[31m\]\u\[\e[m\]@\[\e[34m\]\h\[\e[m\] \[\e[33m\]\W\[\e[m\] \\$ "
 
 # keychain for ssh
 # eval $(keychain --eval --quiet id_ed25519 id_rsa)
+
+# gpg-agent as ssh-agent
+#export GPG_TTY=$(tty)
+#gpg-connect-agent updatestartuptty /bye >/dev/null
 
 # Console colors
 if [ "$TERM" = "linux" ]; then
