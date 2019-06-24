@@ -3,6 +3,7 @@
 !.alsoftrc
 !.bashrc
 !.bash_profile
+!.config/nano/nanorc
 !.gitconfig
 !.gitignore
 !.inputrc
