@@ -56,7 +56,7 @@
 *color7:                S_base2
 *color15: S_base3
 
-st.font: mono:size=11
+st.font: monospace:size=11
 st.borderpx: 1
 
 Xft.dpi: 96
