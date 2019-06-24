@@ -1,0 +1,13 @@
+*
+!.alias
+!.alsoftrc
+!.bashrc
+!.bash_profile
+!.gitconfig
+!.gitignore
+!.inputrc
+!.profile
+!.xprofile
+!.Xresources
+!.vimrc
+!.zshrc
