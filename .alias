@@ -11,6 +11,10 @@ alias mkdir='mkdir -vp'
 alias p='sudo pacman'
 alias syu='sudo pacman -Syu'
 alias mirrors='sudo fetchmirrors -v -s 50 -c PL CZ LV BY SK UA'
+alias pacman-mesa='sudo pacman -U ~/dev/pkg/mesa/mesa-*pkg* ~/dev/pkg/mesa/vulkan-intel-*pkg* ~/dev/pkg/lib32-mesa/lib32-mesa-*pkg* ~/dev/pkg/lib32-mesa/lib32-vulkan-intel-*pkg*'
+
+# generic programs
+alias youtube-dl='youtube-dl -ic --add-metadata'
 
 # system
 alias sc='systemctl'
