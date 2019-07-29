@@ -9,3 +9,5 @@
 	ui = true
 [alias]
 	graph = log --graph --oneline --decorate --date=human
+	unstage = reset HEAD --
+	st = status
