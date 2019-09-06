@@ -23,6 +23,8 @@ alias scu='systemctl --user'
 # gpu
 alias novs-mesa='vblank_mode=0'
 alias novs-nv='__GL_SYNC_TO_VBLANK=0'
+alias vk-intel='VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/intel_icd.x86_64.json'
+alias vk-nvidia='VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.x86_64.json'
 alias vkhud='VK_INSTANCE_LAYERS=VK_LAYER_MESA_overlay'
 alias optimus-nvidia='optimus-manager --switch nvidia'
 alias optimus-intel='optimus-manager --switch intel'
