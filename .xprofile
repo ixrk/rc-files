@@ -2,3 +2,6 @@ if lsmod | grep -q nvidia
 then
 	export VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json
 fi
+
+export GTK2_RC_FILES=/usr/share/themes/Breeze-Dark/gtk-2.0/gtkrc
+export GTK_THEME=Breeze:dark
