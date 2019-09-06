@@ -1,9 +1,14 @@
-#. /etc/profile.d/autojump.bash
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
 shopt -s autocd direxpand
 
 [[ -f /usr/share/bash-completion/bash_completion ]] && . /usr/share/bash-completion/bash_completion
 [[ -f /usr/share/doc/pkgfile/command-not-found.bash ]] && . /usr/share/doc/pkgfile/command-not-found.bash
-[[ -f ~/.profile ]] && . ~/.profile
 [[ -f ~/.alias ]] && . ~/.alias
 
 export PS1="\[\e[31m\]\u\[\e[m\]@\[\e[34m\]\h\[\e[m\] \[\e[33m\]\W\[\e[m\] \\$ "
@@ -38,4 +43,3 @@ if [ "$TERM" = "linux" ]; then
   # get rid of artifacts
   clear
 fi
-
